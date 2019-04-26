@@ -7,10 +7,17 @@ void draw() {
       PImage doge = loadImage("funny dog.jpg");
       doge.resize(500,500);
       image(doge, 0,0);
-      fill(#FFFFFF);
+      fill(mouseX, mouseY, mouseX);
       ellipse(120,120, 130, 100);
-      fill(#FFFFFF);
+      fill(mouseX, mouseY, mouseX);
       ellipse(355,55, 75, 100);
+      fill(#000000);
+      ellipse(355,55,20,20);
+      fill(#000000);
+      ellipse(120,120,20,20);
+
+
+      
       
       
   }
